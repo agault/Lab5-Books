@@ -25,4 +25,36 @@
       <lastname>Elliot</lastname>
     </author>
   </book>
+  <book>
+    <id>3</id>
+    <title>The boy who borked</title>
+    <author>
+      <firstname>Ranger</firstname>
+      <lastname>Danger</lastname>
+    </author>
+  </book>
+  <book>
+    <id>5</id>
+    <title>The ball that never bounced</title>
+    <author>
+      <firstname>Freyja</firstname>
+      <lastname>Freymonster</lastname>
+    </author>
+  </book>
+  <book>
+    <id>6</id>
+    <title>I hate dogs and love sun</title>
+    <author>
+      <firstname>Ember</firstname>
+      <lastname>Indifferent</lastname>
+    </author>
+  </book>
+  <book>
+    <id>8</id>
+    <title>Where art thou Food</title>
+    <author>
+      <firstname>Coal</firstname>
+      <lastname>TheFatMan</lastname>
+    </author>
+  </book>
 </books>
