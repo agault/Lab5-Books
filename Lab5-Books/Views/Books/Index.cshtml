@@ -1,0 +1,27 @@
+﻿
+<h1>Books</h1>
+@model IEnumerable<Lab5_Books.Models.Book>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>BookID</th>
+            <th>Title of Book</th>
+            @*<th>Author Title</th>*@
+            <th>Author Firstname</th>
+            <th>Author Lastname</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m => item.BookID)</td>
+                <td>@Html.DisplayFor(m => item.BookTitle)</td>
+                @*<td>@Html.DisplayFor(m => item.AuthorTitle)</td>*@
+                <td>@Html.DisplayFor(m => item.AuthorFName)</td>
+                <td>@Html.DisplayFor(m => item.AuthorLName)</td>
+            </tr>
+        }
+    </tbody>
+</table>
